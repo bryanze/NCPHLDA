@@ -80,6 +80,7 @@ allresult(disease,lncRNA,interaction,NCP);
 
 ## Self comparison
 We performed  Leave one for cross-validation in self comparison.
+
 **pre_label_score_NCPHLDA.mat:** the prediction score in the disease space and lncRNA spase.
 
 **pre_label_score_NCPHLDA_lncRNA_space.mat:** the prediction score in the lncRNA space only.
