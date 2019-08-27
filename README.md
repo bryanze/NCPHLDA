@@ -2,6 +2,11 @@
 License
 Copyright (C) 2019 Zecheng Huang(2111705162@mail2.gdut.edu.cn),Guobo Xie(xiegb@gdut.edu.cn)
 
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, see http://www.gnu.org/licenses/.
+
 Type: Package Title: NCPHLDA:A Novel Method for Human LncRNA-Disease Association Prediction Based on Network Consistency Projection
 
 Description: This package implements the NCPHLDA algorithm, predicting lncRNA-disease associations.
