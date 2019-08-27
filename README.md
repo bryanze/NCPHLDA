@@ -23,6 +23,7 @@ MATLAB R2017a or later
 **lncRNA_115.xlsx :** The corresponding names of 115 lncRNAs in adjacency matrix A. 
 
 **lncRNAsimilarity.txt:** The lncRNA expression similarity as the Spearman correlation coefficient between the expression profiles of each lncRNA pair . 
+
 **diseasesimilarity.txt:** The semantic similarities among all diseases.
 
 **known_lncRNA_disease_interaction.txt:** The known lncRNA-disease associations is represented by adjacency matrix A in our method,which shows binary associations between diseases and lncRNAs.1 represents disease j is associated with lncRNA i,otherwise 0.
@@ -70,14 +71,19 @@ allresult(disease,lncRNA,interaction,NCP);
 ## Cross validation
 
 **NCPHLDALOOCV.m:** function Leave one for cross-validation. 
+
 **pre_label_score_NCPHLDA.mat**the prediction score of Leave one for cross-validation.
 
 **NCPHLDA5KCV.m:** function 5-fold cross-validation.
+
 **pre_label_score_NCPHLDA_5kcv.mat**the prediction score of 5-fold cross-validation.
 
 ## Self comparison
 We performed  Leave one for cross-validation in self comparison.
 **pre_label_score_NCPHLDA.mat:** the prediction score in the disease space and lncRNA spase.
+
 **pre_label_score_NCPHLDA_lncRNA_space.mat:** the prediction score in the lncRNA space only.
+
 **pre_label_score_NCPHLDA_disease_space.mat:** the prediction score in the disease space only.
+
 **duibi.m:** the code for self-comparison di
