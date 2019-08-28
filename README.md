@@ -64,7 +64,8 @@ To analyze these data on NCPHLDA to further infer potential associations between
 allresult(disease,lncRNA,interaction,NCP);
 ```
 
-**NCPHLDA.m:** NCPHLDA core algorithm to predict potential lncRNA-disease associations; it corresponds to the consistent part of network  consistency projection in this paper
+**NCPHLDA.m:** NCPHLDA core algorithm to predict potential lncRNA-disease associations; it corresponds to the part of network  consistency projection in this paper.
+
 **allresult.m:** the predicted results will be automatically saved in the excel table(allresult.xlsx)
 
 
@@ -78,6 +79,11 @@ allresult(disease,lncRNA,interaction,NCP);
 
 **pre_label_score_NCPHLDA_5kcv.mat**the prediction score of 5-fold cross-validation.
 
+Running  NCPHLDALOOCV.m get the AUC value and ROC chart after implementing Leave one for cross-validation.
+
+
+Running NCPHLDA5KCV.m get the AUC value and ROC chart after implementing 5-fold cross-validation.
+
 ## Self comparison
 We performed  Leave one for cross-validation in self comparison.
 
@@ -87,4 +93,4 @@ We performed  Leave one for cross-validation in self comparison.
 
 **pre_label_score_NCPHLDA_disease_space.mat:** the prediction score in the disease space only.
 
-**duibi.m:** the code for self-comparison di
+**duibi.m:** the code for self-comparison.
